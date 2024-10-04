@@ -10,7 +10,9 @@ import java.util.Scanner;
 public class CalculadoraSalario {
     public static void main(String[] args) throws Exception {
        Scanner scanner = new Scanner(System.in);
+       System.out.println("Digite o valor da hora:");
        double horas = scanner.nextDouble();
+       System.out.println("Quantas horas trabalhadas?");
        double preco = scanner.nextDouble();
 
        System.out.println(SalarioDaSemana(horas, preco));
